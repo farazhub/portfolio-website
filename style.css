@@ -297,7 +297,6 @@ html[data-w-dynpage] [data-w-cloak] {
 }
 
 
-
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: 10px;
   font-weight: bold;
@@ -2288,9 +2287,9 @@ figcaption {
   background-clip: border-box;
   border-radius: 0;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
-  padding-bottom: 10vh;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0;
   display: flex;
   position: fixed;
 }
@@ -2309,7 +2308,7 @@ figcaption {
   grid-template-columns: 1fr 1fr;
   grid-auto-columns: 1fr;
   align-self: center;
-  margin-top: 166px;
+  margin-top: 266px;
   margin-left: 0;
   margin-right: 0;
   padding-left: 5vw;
@@ -3509,14 +3508,20 @@ figcaption {
   pointer-events: auto;
   cursor: pointer;
   flex-wrap: nowrap;
-  flex: none;
+  flex: 0 auto;
+  order: 1;
   align-content: center;
   justify-content: flex-end;
   align-self: center;
   align-items: center;
-  margin-top: 63px;
-  margin-bottom: -138px;
+  margin-top: 0;
+  margin-bottom: 0;
   padding-top: 0;
+  position: absolute;
+  top: auto;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
 }
 
 .paragraph-6 {
@@ -3571,8 +3576,8 @@ figcaption {
   justify-content: flex-end;
   align-self: center;
   align-items: center;
-  margin-top: 15vh;
-  margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 3vh;
   padding-top: 0;
   padding-bottom: 0;
   transition-property: none;
